@@ -20,7 +20,7 @@ app.post("/sendOTP", (req, res) => {
     service: "gmail",
     auth: {
       user: "suchitpaul.se@gmail.com",
-      pass: "jnxh hjcx pmrg izfn",
+      pass: "jnxhhjcxpmrgizfn",
     },
   });
 
