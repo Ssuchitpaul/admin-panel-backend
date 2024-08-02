@@ -19,14 +19,14 @@ app.post("/sendOTP", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "",
-      pass: "",
+      user: "suchitpaul.se@gmail.com",
+      pass: "jnxh hjcx pmrg izfn",
     },
   });
 
   const mailOptions = {
-    from: "",
-    to: "",
+    from: "suchitpaul.se@gmail.com",
+    to: "suchitpaul.ipaul@gmail.com",
     subject: "OTP Verification",
     text: `Your OTP is: ${otp} from Admin Panel`,
   };
